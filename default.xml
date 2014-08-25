@@ -3,7 +3,7 @@
   <remote name="github"
           fetch="git://github.com/"/>
   <remote name="kernel"
-          fetch="git://git.kernel.org/pub/scm/linux/git/"/>
+          fetch="git://git.kernel.org/pub/scm/"/>
   <remote name="buildroot"
           fetch="git://git.buildroot.net/"/>
   <remote name="gitorious"
@@ -12,7 +12,7 @@
   <default revision="refs/heads/master"/>
 
   <project path="u-boot" name="ac100-ru/u-boot-ac100-exp.git" remote="github" groups="core" revision="refs/heads/v2014.07-android-test"/>
-  <project path="kernel" name="stable/linux-stable.git" remote="kernel" groups="core"/>
+  <project path="kernel" name="linux/kernel/git/stable/linux-stable.git" remote="kernel" groups="core" revision="refs/tags/v3.16.1"/>
   <project path="buildroot" name="buildroot" remote="buildroot" groups="core" revision="refs/tags/2013.11"/>
   <project path="create_bootimage" name="uboot-ac100/create_bootimage.git" remote="gitorious" groups="sosboot"/>
   <project path="ac100-self-installers" name="Stuw/ac100-self-installers.git" remote="github" groups="sosboot"/>
