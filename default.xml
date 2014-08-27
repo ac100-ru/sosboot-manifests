@@ -19,5 +19,5 @@
   <project path="ac100-self-installers" name="Stuw/ac100-self-installers.git" remote="github" groups="sosboot"/>
   <project path="android-installer" name="ac100-ru/android-installer.git" remote="github" groups="sosboot"/>
   <project path="." name="ac100-ru/sosboot.git" remote="github" groups="sosboot" revision="refs/heads/zombah-testing"/>
-  <project path="scripts/toolchain_prebuilt" name="ac100-ru/toolchain_prebuilt.git" remote="github" groups="core" revision="refs/heads/linaro-2014.07"/>
+  <project path="scripts/toolchain_prebuilt" name="ac100-ru/toolchain_prebuilt.git" remote="github" groups="core" revision="refs/heads/linaro-2014.04"/>
 </manifest>
