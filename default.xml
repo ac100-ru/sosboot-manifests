@@ -12,9 +12,7 @@
   <default revision="refs/heads/master"/>
 
   <project path="uboot" name="ac100-ru/u-boot-ac100-exp.git" remote="github" groups="core" revision="refs/heads/tegra-master-exp-android"/>
-  <!-- <project path="kernel" name="linux/kernel/git/stable/linux-stable.git" remote="kernel" groups="core" revision="refs/tags/v3.18.2"/> -->
-  <project path="kernel" name="torvalds/linux.git" remote="github" groups="core" revision="refs/heads/master"/>
-  <!-- <project path="kernel" name="ac100/marvin24s-kernel.git" remote="gitorious" groups="core" revision="refs/heads/linux-ac100-3.8"/> -->
+  <project path="kernel" name="linux/kernel/git/wsa/linux.git" remote="kernel" groups="core" revision="refs/heads/i2c/for-next"/>
   <project path="buildroot" name="buildroot" remote="buildroot" groups="core" revision="refs/tags/2014.11"/>
   <project path="create_bootimage" name="uboot-ac100/create_bootimage.git" remote="gitorious" groups="sosboot"/>
   <project path="ac100-self-installers" name="Stuw/ac100-self-installers.git" remote="github" groups="sosboot"/>
