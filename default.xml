@@ -18,7 +18,7 @@
   <project path="buildroot" name="buildroot" remote="buildroot" groups="core" revision="refs/tags/2014.11"/>
   <project path="create_bootimage" name="uboot-ac100/create_bootimage.git" remote="gitorious" groups="sosboot"/>
   <project path="ac100-self-installers" name="Stuw/ac100-self-installers.git" remote="github" groups="sosboot" revision="refs/heads/ng"/>
-  <project path="android-installer" name="ac100-ru/android-installer.git" remote="github" groups="sosboot"/>
+  <project path="android-installer" name="ac100-ru/android-installer.git" remote="github" groups="sosboot" revision="refs/heads/ng"/>
   <project path="." name="ac100-ru/sosboot.git" remote="github" groups="sosboot" revision="refs/heads/zombah-testing"/>
   <!-- <project path="scripts/toolchain_prebuilt" name="ac100-ru/toolchain_prebuilt.git" remote="github" groups="core" revision="refs/heads/linaro-2014.04"/> -->
   <project path="cbootimage" name="NVIDIA/cbootimage.git" remote="github" groups="core" revision="refs/heads/master"/>
