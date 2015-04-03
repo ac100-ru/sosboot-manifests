@@ -24,5 +24,5 @@
   <project path="." name="ac100-ru/sosboot.git" remote="github" groups="sosboot" revision="refs/heads/zombah-testing"/>
   <!-- <project path="scripts/toolchain_prebuilt" name="ac100-ru/toolchain_prebuilt.git" remote="github" groups="core" revision="refs/heads/linaro-2014.04"/> -->
   <project path="cbootimage" name="NVIDIA/cbootimage.git" remote="github" groups="core" revision="refs/heads/master"/>
-  <project path="abootimg" name="ac100/abootimg.git" remote="gitorious" groups="core" revision="refs/heads/master"/>
+  <project path="abootimg" name="ac100/zombahs-abootimg.git" remote="gitlab" groups="core" revision="refs/heads/master"/>
 </manifest>
