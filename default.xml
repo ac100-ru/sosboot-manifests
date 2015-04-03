@@ -9,7 +9,7 @@
   <remote name="gitorious"
           fetch="git://gitorious.org/"/>
   <remote name="gitlab"
-          fetch="git://gitlab.com/"/>
+          fetch="https://gitlab.com/"/>
 
   <default revision="refs/heads/master"/>
 
